@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vaultron</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <a class="navbar-brand" href="home.html">Vaultron</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="documentListView.html">Your Documents</a></li>
+                     <li><a href="documentForm.html">Add Documents</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="login.html">Sign out</a></li>
+                </ul>
+            </div>
+            </nav>
+        </header>
+        <div class="container">
+            <h1 class="text-center">Contact Us:</h1>
+            <form action="/action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="lname">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+        <footer>
+            
+        </footer>
+    </body>
+</html>

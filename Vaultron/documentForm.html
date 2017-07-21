@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vaultron</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <a class="navbar-brand" href="home.html">Vaultron</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="documentListView.html">Your Documents</a></li>
+                    <li><a href="#">Add Documents</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="login.html">Sign out</a></li>
+                </ul>
+            </div>
+            </nav>
+        </header>
+        <div class="container">
+            <h1 class="text-center">Add your document/item:</h1>
+            <div class="form-group row">
+                <label class="col-2 col-form-label">Document/Item Name:</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" id="document-item-name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-2 col-form-label">Description:</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" id="description">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-2 col-form-label">Serial number/Document Number:</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" id="serial-document-number">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="exampleTextarea">Comments:</label>
+                <textarea class="form-control" id="comments" rows="3"></textarea>
+            </div>
+            <a href="documentListView.html"><button class="btn btn-primary" type="submit">Save</button></a>
+            <a href="home.html"><button class="btn btn-default" type="submit">Cancel</button></a>
+        </div>
+        <footer>
+            
+        </footer>
+    </body>
+</html>
